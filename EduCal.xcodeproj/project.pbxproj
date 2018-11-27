@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1252F865859185F4F388DD28 /* Pods_EduCalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08113F00361A1C105F4C13B1 /* Pods_EduCalUITests.framework */; };
+		3C831EE204C627D098A59C27 /* Pods_EduCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B6C2C32373057E09618A29 /* Pods_EduCal.framework */; };
+		4A40C61D67BE7E4A37FDA256 /* Pods_EduCalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875453CCBD89A553EBED587 /* Pods_EduCalTests.framework */; };
+		A21E8F0321AD312C000E5535 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0221AD312C000E5535 /* LoginViewController.swift */; };
+		A21E8F0521AD3143000E5535 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0421AD3143000E5535 /* SignUpViewController.swift */; };
+		A21E8F0721AD4253000E5535 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0621AD4253000E5535 /* HelpViewController.swift */; };
+		A21E8F0921AD7B30000E5535 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0821AD7B30000E5535 /* UserProfile.swift */; };
 		A269573721AD2D3700B241F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269573621AD2D3700B241F0 /* AppDelegate.swift */; };
-		A269573921AD2D3700B241F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269573821AD2D3700B241F0 /* ViewController.swift */; };
 		A269573C21AD2D3700B241F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269573A21AD2D3700B241F0 /* Main.storyboard */; };
 		A269573E21AD2D3800B241F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A269573D21AD2D3800B241F0 /* Assets.xcassets */; };
 		A269574121AD2D3800B241F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269573F21AD2D3800B241F0 /* LaunchScreen.storyboard */; };
 		A269574C21AD2D3800B241F0 /* EduCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269574B21AD2D3800B241F0 /* EduCalTests.swift */; };
 		A269575721AD2D3800B241F0 /* EduCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269575621AD2D3800B241F0 /* EduCalUITests.swift */; };
+		A269576521AD2E1F00B241F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08113F00361A1C105F4C13B1 /* Pods_EduCalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduCalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6DBCE00E832347B518F9C4 /* Pods-EduCalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EduCalUITests/Pods-EduCalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6BA6469EDFAAD3D21D0D40B2 /* Pods-EduCalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EduCalTests/Pods-EduCalTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E28CC73208EA3CCB84CB18C /* Pods-EduCalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EduCalUITests/Pods-EduCalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		831D32BC13D8736AD8728CB1 /* Pods-EduCalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EduCalTests/Pods-EduCalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21E8F0221AD312C000E5535 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A21E8F0421AD3143000E5535 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A21E8F0621AD4253000E5535 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		A21E8F0821AD7B30000E5535 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		A269573321AD2D3700B241F0 /* EduCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A269573621AD2D3700B241F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A269573821AD2D3700B241F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A269573B21AD2D3700B241F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A269573D21AD2D3800B241F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A269574021AD2D3800B241F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		A269575221AD2D3800B241F0 /* EduCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A269575621AD2D3800B241F0 /* EduCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduCalUITests.swift; sourceTree = "<group>"; };
 		A269575821AD2D3800B241F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1B6C2C32373057E09618A29 /* Pods_EduCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD445E30240B21DD3384E172 /* Pods-EduCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCal.release.xcconfig"; path = "Pods/Target Support Files/Pods-EduCal/Pods-EduCal.release.xcconfig"; sourceTree = "<group>"; };
+		E7B5FEE9C47C1CC9C0BB2CF1 /* Pods-EduCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EduCal/Pods-EduCal.debug.xcconfig"; sourceTree = "<group>"; };
+		F875453CCBD89A553EBED587 /* Pods_EduCalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduCalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C831EE204C627D098A59C27 /* Pods_EduCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A40C61D67BE7E4A37FDA256 /* Pods_EduCalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1252F865859185F4F388DD28 /* Pods_EduCalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9916D9ECA428539C04168D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1B6C2C32373057E09618A29 /* Pods_EduCal.framework */,
+				F875453CCBD89A553EBED587 /* Pods_EduCalTests.framework */,
+				08113F00361A1C105F4C13B1 /* Pods_EduCalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5046CD8FD97AE09561594BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B5FEE9C47C1CC9C0BB2CF1 /* Pods-EduCal.debug.xcconfig */,
+				DD445E30240B21DD3384E172 /* Pods-EduCal.release.xcconfig */,
+				831D32BC13D8736AD8728CB1 /* Pods-EduCalTests.debug.xcconfig */,
+				6BA6469EDFAAD3D21D0D40B2 /* Pods-EduCalTests.release.xcconfig */,
+				6E28CC73208EA3CCB84CB18C /* Pods-EduCalUITests.debug.xcconfig */,
+				4E6DBCE00E832347B518F9C4 /* Pods-EduCalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A269572A21AD2D3700B241F0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				A269574A21AD2D3800B241F0 /* EduCalTests */,
 				A269575521AD2D3800B241F0 /* EduCalUITests */,
 				A269573421AD2D3700B241F0 /* Products */,
+				5046CD8FD97AE09561594BF1 /* Pods */,
+				0D9916D9ECA428539C04168D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,16 @@
 		A269573521AD2D3700B241F0 /* EduCal */ = {
 			isa = PBXGroup;
 			children = (
+				A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */,
 				A269573621AD2D3700B241F0 /* AppDelegate.swift */,
-				A269573821AD2D3700B241F0 /* ViewController.swift */,
 				A269573A21AD2D3700B241F0 /* Main.storyboard */,
 				A269573D21AD2D3800B241F0 /* Assets.xcassets */,
 				A269573F21AD2D3800B241F0 /* LaunchScreen.storyboard */,
 				A269574221AD2D3800B241F0 /* Info.plist */,
+				A21E8F0221AD312C000E5535 /* LoginViewController.swift */,
+				A21E8F0421AD3143000E5535 /* SignUpViewController.swift */,
+				A21E8F0621AD4253000E5535 /* HelpViewController.swift */,
+				A21E8F0821AD7B30000E5535 /* UserProfile.swift */,
 			);
 			path = EduCal;
 			sourceTree = "<group>";
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A269575B21AD2D3800B241F0 /* Build configuration list for PBXNativeTarget "EduCal" */;
 			buildPhases = (
+				039E01D38C91A60DE4BE6802 /* [CP] Check Pods Manifest.lock */,
 				A269572F21AD2D3700B241F0 /* Sources */,
 				A269573021AD2D3700B241F0 /* Frameworks */,
 				A269573121AD2D3700B241F0 /* Resources */,
+				4FD95B647ADA15161F34DABC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A269575E21AD2D3800B241F0 /* Build configuration list for PBXNativeTarget "EduCalTests" */;
 			buildPhases = (
+				54FBDC11F3C663F409B8C11F /* [CP] Check Pods Manifest.lock */,
 				A269574321AD2D3800B241F0 /* Sources */,
 				A269574421AD2D3800B241F0 /* Frameworks */,
 				A269574521AD2D3800B241F0 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A269576121AD2D3800B241F0 /* Build configuration list for PBXNativeTarget "EduCalUITests" */;
 			buildPhases = (
+				4CC7F751F23030C4B255A088 /* [CP] Check Pods Manifest.lock */,
 				A269574E21AD2D3800B241F0 /* Sources */,
 				A269574F21AD2D3800B241F0 /* Frameworks */,
 				A269575021AD2D3800B241F0 /* Resources */,
@@ -230,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A269574121AD2D3800B241F0 /* LaunchScreen.storyboard in Resources */,
+				A269576521AD2E1F00B241F0 /* GoogleService-Info.plist in Resources */,
 				A269573E21AD2D3800B241F0 /* Assets.xcassets in Resources */,
 				A269573C21AD2D3700B241F0 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +308,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039E01D38C91A60DE4BE6802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC7F751F23030C4B255A088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FD95B647ADA15161F34DABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EduCal/Pods-EduCal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EduCal/Pods-EduCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54FBDC11F3C663F409B8C11F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A269572F21AD2D3700B241F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A269573921AD2D3700B241F0 /* ViewController.swift in Sources */,
+				A21E8F0321AD312C000E5535 /* LoginViewController.swift in Sources */,
+				A21E8F0521AD3143000E5535 /* SignUpViewController.swift in Sources */,
+				A21E8F0921AD7B30000E5535 /* UserProfile.swift in Sources */,
 				A269573721AD2D3700B241F0 /* AppDelegate.swift in Sources */,
+				A21E8F0721AD4253000E5535 /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +591,7 @@
 		};
 		A269575C21AD2D3800B241F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B5FEE9C47C1CC9C0BB2CF1 /* Pods-EduCal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +609,7 @@
 		};
 		A269575D21AD2D3800B241F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD445E30240B21DD3384E172 /* Pods-EduCal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +627,7 @@
 		};
 		A269575F21AD2D3800B241F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831D32BC13D8736AD8728CB1 /* Pods-EduCalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +648,7 @@
 		};
 		A269576021AD2D3800B241F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA6469EDFAAD3D21D0D40B2 /* Pods-EduCalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +669,7 @@
 		};
 		A269576221AD2D3800B241F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E28CC73208EA3CCB84CB18C /* Pods-EduCalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +689,7 @@
 		};
 		A269576321AD2D3800B241F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6DBCE00E832347B518F9C4 /* Pods-EduCalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
