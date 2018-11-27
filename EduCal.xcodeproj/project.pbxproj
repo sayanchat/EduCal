@@ -14,13 +14,13 @@
 		A21E8F0521AD3143000E5535 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0421AD3143000E5535 /* SignUpViewController.swift */; };
 		A21E8F0721AD4253000E5535 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0621AD4253000E5535 /* HelpViewController.swift */; };
 		A21E8F0921AD7B30000E5535 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0821AD7B30000E5535 /* UserProfile.swift */; };
+		A21E8F0C21AD8D27000E5535 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A21E8F0B21AD8D27000E5535 /* GoogleService-Info.plist */; };
 		A269573721AD2D3700B241F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269573621AD2D3700B241F0 /* AppDelegate.swift */; };
 		A269573C21AD2D3700B241F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269573A21AD2D3700B241F0 /* Main.storyboard */; };
 		A269573E21AD2D3800B241F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A269573D21AD2D3800B241F0 /* Assets.xcassets */; };
 		A269574121AD2D3800B241F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269573F21AD2D3800B241F0 /* LaunchScreen.storyboard */; };
 		A269574C21AD2D3800B241F0 /* EduCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269574B21AD2D3800B241F0 /* EduCalTests.swift */; };
 		A269575721AD2D3800B241F0 /* EduCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269575621AD2D3800B241F0 /* EduCalUITests.swift */; };
-		A269576521AD2E1F00B241F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +50,7 @@
 		A21E8F0421AD3143000E5535 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A21E8F0621AD4253000E5535 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		A21E8F0821AD7B30000E5535 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A21E8F0B21AD8D27000E5535 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EduCal/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A269573321AD2D3700B241F0 /* EduCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A269573621AD2D3700B241F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A269573B21AD2D3700B241F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		A269575221AD2D3800B241F0 /* EduCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A269575621AD2D3800B241F0 /* EduCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduCalUITests.swift; sourceTree = "<group>"; };
 		A269575821AD2D3800B241F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1B6C2C32373057E09618A29 /* Pods_EduCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD445E30240B21DD3384E172 /* Pods-EduCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCal.release.xcconfig"; path = "Pods/Target Support Files/Pods-EduCal/Pods-EduCal.release.xcconfig"; sourceTree = "<group>"; };
 		E7B5FEE9C47C1CC9C0BB2CF1 /* Pods-EduCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EduCal/Pods-EduCal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 		A269572A21AD2D3700B241F0 = {
 			isa = PBXGroup;
 			children = (
+				A21E8F0B21AD8D27000E5535 /* GoogleService-Info.plist */,
 				A269573521AD2D3700B241F0 /* EduCal */,
 				A269574A21AD2D3800B241F0 /* EduCalTests */,
 				A269575521AD2D3800B241F0 /* EduCalUITests */,
@@ -145,7 +146,6 @@
 		A269573521AD2D3700B241F0 /* EduCal */ = {
 			isa = PBXGroup;
 			children = (
-				A269576421AD2E1F00B241F0 /* GoogleService-Info.plist */,
 				A269573621AD2D3700B241F0 /* AppDelegate.swift */,
 				A269573A21AD2D3700B241F0 /* Main.storyboard */,
 				A269573D21AD2D3800B241F0 /* Assets.xcassets */,
@@ -285,8 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21E8F0C21AD8D27000E5535 /* GoogleService-Info.plist in Resources */,
 				A269574121AD2D3800B241F0 /* LaunchScreen.storyboard in Resources */,
-				A269576521AD2E1F00B241F0 /* GoogleService-Info.plist in Resources */,
 				A269573E21AD2D3800B241F0 /* Assets.xcassets in Resources */,
 				A269573C21AD2D3700B241F0 /* Main.storyboard in Resources */,
 			);
