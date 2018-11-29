@@ -38,7 +38,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.major = (snapshot.value as! NSDictionary)["major"] as! String
             self.name = (snapshot.value as! NSDictionary)["name"] as! String
             self.number = (snapshot.value as! NSDictionary)["number"] as! String
-            print(self.location)
             self.displayedData = [self.name, self.major, self.location, self.email, self.number]
             self.userProfile.reloadData();
         })

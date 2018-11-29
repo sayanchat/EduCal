@@ -18,6 +18,9 @@
 		A21E8F0721AD4253000E5535 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0621AD4253000E5535 /* HelpViewController.swift */; };
 		A21E8F0921AD7B30000E5535 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F0821AD7B30000E5535 /* UserProfile.swift */; };
 		A21E8F0C21AD8D27000E5535 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A21E8F0B21AD8D27000E5535 /* GoogleService-Info.plist */; };
+		A21E8F1221AFB5C7000E5535 /* TutorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F1121AFB5C7000E5535 /* TutorTableViewController.swift */; };
+		A21E8F1421AFB676000E5535 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F1321AFB676000E5535 /* RequestViewController.swift */; };
+		A21E8F1621AFF085000E5535 /* TutorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E8F1521AFF085000E5535 /* TutorProfile.swift */; };
 		A269573721AD2D3700B241F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269573621AD2D3700B241F0 /* AppDelegate.swift */; };
 		A269573C21AD2D3700B241F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269573A21AD2D3700B241F0 /* Main.storyboard */; };
 		A269573E21AD2D3800B241F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A269573D21AD2D3800B241F0 /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		A21E8F0621AD4253000E5535 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		A21E8F0821AD7B30000E5535 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		A21E8F0B21AD8D27000E5535 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EduCal/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A21E8F1121AFB5C7000E5535 /* TutorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorTableViewController.swift; sourceTree = "<group>"; };
+		A21E8F1321AFB676000E5535 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		A21E8F1521AFF085000E5535 /* TutorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfile.swift; sourceTree = "<group>"; };
 		A269573321AD2D3700B241F0 /* EduCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A269573621AD2D3700B241F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A269573B21AD2D3700B241F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -164,6 +170,9 @@
 				70FB0B8A21AF498B00551FD3 /* ProfileViewController.swift */,
 				70E5E8B621AF697300BA4952 /* ProfileTableViewCell.swift */,
 				70E5E8B821AF6FAD00BA4952 /* EditProfileViewController.swift */,
+				A21E8F1121AFB5C7000E5535 /* TutorTableViewController.swift */,
+				A21E8F1321AFB676000E5535 /* RequestViewController.swift */,
+				A21E8F1521AFF085000E5535 /* TutorProfile.swift */,
 			);
 			path = EduCal;
 			sourceTree = "<group>";
@@ -425,10 +434,13 @@
 			files = (
 				70E5E8B921AF6FAD00BA4952 /* EditProfileViewController.swift in Sources */,
 				70FB0B8B21AF498B00551FD3 /* ProfileViewController.swift in Sources */,
+				A21E8F1421AFB676000E5535 /* RequestViewController.swift in Sources */,
 				70E5E8B721AF697300BA4952 /* ProfileTableViewCell.swift in Sources */,
 				A21E8F0321AD312C000E5535 /* LoginViewController.swift in Sources */,
 				A21E8F0521AD3143000E5535 /* SignUpViewController.swift in Sources */,
 				A21E8F0921AD7B30000E5535 /* UserProfile.swift in Sources */,
+				A21E8F1621AFF085000E5535 /* TutorProfile.swift in Sources */,
+				A21E8F1221AFB5C7000E5535 /* TutorTableViewController.swift in Sources */,
 				A269573721AD2D3700B241F0 /* AppDelegate.swift in Sources */,
 				A21E8F0721AD4253000E5535 /* HelpViewController.swift in Sources */,
 			);
