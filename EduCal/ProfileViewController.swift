@@ -18,7 +18,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     var number: String = ""
     
     var displayedData: [String] = []
-    var displayedName: [String] = ["Name:", "Major:", "Location:", "Email:", "Phone Num:"]
+    var displayedName: [String] = ["Name:", "Major:", "Location:", "Email:", "Phone #:"]
     
     var ref: DatabaseReference!
 

@@ -38,6 +38,9 @@ class TutorTableViewController: UIViewController, UITableViewDelegate, UITableVi
         print(tutors)
         return tutors.count
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tutortable.dequeueReusableCell(withIdentifier: "TutorCell", for: indexPath) as? TutorCell
         let tutorPerson = tutors[indexPath.row]
